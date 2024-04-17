@@ -1,0 +1,27 @@
+1:chalou:dog:bulldog:4:male:true:undefined:true:                :Cha:lllkio@hotmail.com
+2:chalou:cat:scottish fold:2:male:undefined:undefined:undefined:                :Cha:lllkio@hotmail.com
+3:admin:cat:persian:5:male:true:true:true:                :Rachel:rachel@hotmail.com
+4:admin:dog:german shepherd:5:male:true:true:true:Very nice and playful dog:Mark:markcarsky@gmail.com
+5:admin:cat:persian:5:male:undefined:undefined:undefined:needs to go asap, im allergic:Rosie:rosie@hotmail.com
+6:admin:cat:siamese:5:male:undefined:undefined:undefined:                :Frank:franky@gmail.com
+7:nyu:cat:persian:10:female:true:true:true:very fluffy:Lola:lola@gmail.com
+8:nyu:cat:persian:5:female:true:true:true:                None:Nyusha:nyunyu@hotmail.com
+9:nyu:dog:german shepherd:10:male:true:true:true:a beautiful and loyal dog but I need to move out of country for an extended period:Roman:roma2002@yandex.ru
+10:admin:dog:german shepherd:5:female:true:true:true:my late grandma's dog, I'm allergic D::Natasha:nata@hotmail.com
+11:admin:dog:bulldog:5:female:undefined:undefined:undefined:                :Rachel:rachel@hotmail.com
+12:admin:dog:husky:1:male:true:undefined:undefined:needs a lot of grooming:mark:markanderson@yahoo.com
+13:admin:dog:golden retriever:7:male:undefined:true:true:                :Ivan:ivan_bobrov@yandex.ru
+14:admin:dog:shiba inu:10:male:undefined:undefined:undefined:very grumpy, needs a lot of attention:Kiba:kiba_inazuka@konoha.com
+15:admin:dog:shiba inu:5:female:true:true:true:fluffy ball of happiness:Maria :maria.nait@hotmail.com
+16:admin:dog:beagle:2:male:true:true:true:loyal hunting companion:Clark:clark_the_hunter@huntinghut.com
+17:admin:dog:beagle:6:male:true:true:true:has diabetes, needs extra care:Dr. Gagnon:drgagnon@cliniqueduquartier.ca
+18:admin:dog:persian:10:male:undefined:undefined:undefined:Sometimes aggressive, we can't handle him anymore:Lisa & John Carsky:carsky_fam2005@gmail.com
+19:admin:cat:siamese:5:male:true:true:true:              :Nikita Kovalev:nikitka@yandex.ru
+20:admin:cat:maine coon:5:female:true:true:true:big girl, very friendly!:Maria K.:mariak@yahoo.com
+21:admin:cat:russian blue:5:male:true:true:true:Need to move back to my parents' cant afford to keep him:Anastasia V. :anaviva@gmail.com
+22:admin:cat:scottish fold:6:male:true:true:true:Name is Cesar, lazy fat cat  :Caesarix:caesarix@gmail.com
+23:admin:cat:mixed:5:female:undefined:undefined:undefined:hard to tell her breed:Maria M:maria.m@gmail.com
+24:admin:cat:mixed:1:nomatter:true:true:true:Neutered, female. Found her on the street last month    :mark:markycarky@gmail.com
+25:admin:cat:mixed:6:female:true:true:true:Name is Murka:Natasha :nata@hotmail.com
+26:admin:cat:neko:5:female:undefined:undefined:undefined:cute lil cat:michael:michael@gmail.com
+27:admin:cat:mixed:5:female:undefined:undefined:undefined:Name is Sunny, very aggressive cat, can't even touch:Michael:mike77@hotmail.com

@@ -1,0 +1,123 @@
+<!--Lev Ustinov, SOEN287-S, 40284421, Assignment2-->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "./CSS/find_dog_cat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+   
+    
+    <title>Adopt a Dog/Cat: Find Cat / Dog</title>
+
+
+</head>
+
+
+<body>
+    <span id = "time"></span>
+    <span id = "loginInfo"></span>
+    <a href = "./home.html"><header><p>Adopt a Cat or a Dog</p></header></a>
+    
+    
+    
+    <div id = "main">
+        
+        <div id = "menu">
+            <ul>
+    
+                <li><h1>Menu</h1></li>
+                <li><a href = "./home.html"><h3>Home</h3></a></li>
+                <li><a href = "./create_account.html"><h3>Create Account</h3></a></li>
+                <li><a href = "./find_dog_cat.html"><h3>Find a dog / cat</h3></a></li>
+                <li><a href = "./dog_care.html"><h3>Dog Care</h3></a></li>
+                <li><a href = "./cat_care.html"><h3>Cat Care</h3></a></li>
+                <li><a href = "./loginCookieCheck"><h3>Have a Pet to give away?</h3></a></li>
+                <li><a href = "./contact.html"><h3>Contact</h3></a></li>
+                <li><a href = "./loginSecondCheck"><h3>Login</h3></a></li>
+                <li><a href = "./logout"><h3>Logout</h3></a></li>
+    
+            </ul>
+        </div>
+        <div id = "form">
+            <p>Please Fill this form to find the right companion for you! (Required fields are marked with *)</p>
+            
+            <form action ="./findPet" method = "POST" id = "find_form">
+
+
+                <label for = "cat">Cat*:</label>
+                <input type = "radio" id ="cat" name = "animal" value = "cat">
+                <br>
+                
+                <label for = "dog">Dog*:</label>
+                <input type = "radio" id ="dog" name = "animal" value = "dog">
+                <br>
+
+                <label for ="breed">Preferred Breed*:</label>
+                <input type = "text" list = "breeds" id = "breed" name = "breed">
+                <datalist id = "breeds">
+                    <option value = "german shepherd"></option>
+                    <option value = "golden retriever"></option>
+                    <option value = "bulldog"></option>
+                    <option value = "husky"></option>
+                    <option value = "shiba inu"></option>
+                    <option value = "beagle"></option>
+                    <option value = "persian"></option>
+                    <option value = "siamese"></option>
+                    <option value = "maine coon"></option>
+                    <option value = "russian blue"></option>
+                    <option value = "scottish fold"></option>
+                    <option value = "british shorthair"></option>
+                    <option value = "does not matter"></option>
+                </datalist>
+                <br>
+
+                
+                <label for = "age">Preferred age (displays that age or younger)*:</label>
+                <input type = "number" name = "age" id = "age" min = "0" max = "15" step = "1">
+                <br>
+
+
+                <label for = "gender">Preferred gender:</label>
+                <select id = "gender" name = "gender">
+                    <option value = "male">Male</option>
+                    <option value = "female">Female</option>
+                    <option value = "nomatter">Doesn't Matter</option>
+                </select>
+                <br>
+
+                <p>The animal needs to get along with (check all that apply):</p>
+                <label for = "children">Children:</label>
+                <input id = "children" name = "likesChildren" value ="true" type = "checkbox">
+                <label for = "cats">Other cats:</label>
+                <input id = "cats" name = "likesCats" value ="true" type = "checkbox">
+                <label for = "dogs">Other dogs:</label>
+                <input id = "dogs" name = "likesDogs" value ="true" type = "checkbox">
+                <br>
+            
+
+                <input type = "submit" value = "Submit!" onclick = "return validateInputFindPet()">
+                <input type = "reset" value = "Clear form">
+                
+            </form>
+
+
+       
+        </div>
+
+    </div>
+    
+    <footer>
+        <span id = "disclaimer">
+            Privacy disclaimer: We take your privacy seriously.
+             Any personal information you provide to us, such as your name, email address, or contact details,
+             will be treated with the utmost confidentiality and will only be used for the purposes outlined in our Privacy Policy.
+        </span>
+    </footer>
+    <script src = "./JS/script.js"></script>
+    
+</body>
+
+
+</html>

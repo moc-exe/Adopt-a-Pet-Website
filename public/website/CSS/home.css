@@ -1,0 +1,99 @@
+
+#time{
+    font-family: Protest Riot;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+
+    background-image: url(./img/header_background.jpg);
+    height: 166px;
+    text-align: center;
+    vertical-align: center;
+}
+
+header p{
+    position: relative;
+    left: 25%;
+    border:5px solid rgb(104, 121, 122);
+    border-radius: 15px;
+    width: 50%;
+    min-width: fit-content;
+    height: 50px;
+    font-size: 30px;
+    font-family: Protest Riot, Geneva, Tahoma, sans-serif;
+    color: darkred;
+    background-color: white;
+}
+
+#main{
+    display:flex;
+    align-items: flex-start;
+
+}
+
+#menu{
+    border:5px solid rgb(104, 121, 122);
+    border-radius: 15px;
+    width: 20%;
+    margin-right: 15px;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+#menu ul{
+    list-style-type:none;
+    font-family: Protest Riot;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#menu h1{
+    color:darkred;
+}
+#menu h3{
+    color:rgb(104, 121, 122);
+}
+
+#menu h3:hover{
+    color:darkred
+}
+
+
+#message{
+
+    
+    min-height: fit-content;
+    width:75%;
+    text-align: justify;
+    vertical-align: middle;
+    
+    
+    
+}
+
+#message p{
+    margin: 5%;
+    font-family: Protest Riot;
+    font-weight: 400;
+    
+}
+
+footer{
+    display: flex;
+    
+    height:35px;
+    text-align: center;
+    vertical-align: middle;
+    min-height: fit-content;
+    min-width: fit-content;
+    margin: 10px;
+    text-align: center;
+    font-family: Protest Riot;
+
+}
+#disclaimer{
+    margin: 10px;
+    text-align: center;
+}

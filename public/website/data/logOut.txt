@@ -1,0 +1,70 @@
+nohup: ignoring input
+Adopt a pet server listening on port: 5240 on Sun Apr 07 2024 03:21:17 GMT-0400 (Eastern Daylight Time) 
+
+Current time: 07/04/2024  03:21:20: Got a request on '/'
+Current time: 07/04/2024  03:23:26: Got a request on '/'
+Current time: 07/04/2024  03:24:20: Got a request on '/'
+Current time: 07/04/2024  03:24:36: Got a request on '/'
+Current time: 07/04/2024  03:24:37: Got a request on '/'
+Current time: 07/04/2024  03:24:38: Got a request on '/'
+Current time: 07/04/2024  03:24:40: Got a request on '/'
+Current time: 07/04/2024  03:24:44 user tried to access the giveaway page
+
+Current time: 07/04/2024  03:24:47 user tried to access the giveaway page
+
+Current time: 07/04/2024  03:24:51 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  03:27:48: Got a request on '/'
+Current time: 07/04/2024  03:28:31 user tried to access the giveaway page
+
+Current time: 07/04/2024  03:28:33 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  03:28:36 user tried to access the giveaway page
+
+Current time: 07/04/2024  03:28:37 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  03:30:29 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  03:30:31 user tried to access the giveaway page
+
+Current time: 07/04/2024  03:32:41 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  03:32:43: Got a request on '/'
+Current time: 07/04/2024  03:32:45 user tried to access the giveaway page
+
+Error: Can't set headers after they are sent.
+    at SendStream.headersAlreadySent (/home/l_ustino/nodejs-proj/node_modules/send/index.js:386:13)
+    at SendStream.send (/home/l_ustino/nodejs-proj/node_modules/send/index.js:613:10)
+    at onstat (/home/l_ustino/nodejs-proj/node_modules/send/index.js:725:10)
+    at FSReqCallback.oncomplete (node:fs:205:5)
+Current time: 07/04/2024  04:04:20: Got a request on '/'
+Current time: 07/04/2024  04:04:28 user tried to access the giveaway page
+
+Current time: 07/04/2024  04:04:29: Got a request on '/'
+Current time: 07/04/2024  04:22:44: Got a request on '/'
+Current time: 07/04/2024  04:22:46: Got a request on '/'

@@ -1,0 +1,86 @@
+<!--Lev Ustinov, SOEN287-S, 40284421, Assignment3-->
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "./CSS/create_account.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+   
+    
+    <title>Adopt a Dog/Cat: Home</title>
+
+
+</head>
+
+
+<body>
+    <span id = "time"></span>
+    <span id = "loginInfo"></span>
+    <a href = "./home.html"><header><p>Adopt a Cat or a Dog</p></header></a>
+    
+    <div id = "main">
+        
+        <div id = "menu">
+            <ul>
+    
+                <li><h1>Menu</h1></li>
+                <li><a href = "./home.html"><h3>Home</h3></a></li>
+                <li><a href = "./create_account.html"><h3>Create Account</h3></a></li>
+                <li><a href = "./find_dog_cat.html"><h3>Find a dog / cat</h3></a></li>
+                <li><a href = "./dog_care.html"><h3>Dog Care</h3></a></li>
+                <li><a href = "./cat_care.html"><h3>Cat Care</h3></a></li>
+                <li><a href = "./loginCookieCheck"><h3>Have a Pet to give away?</h3></a></li>
+                <li><a href = "./contact.html"><h3>Contact</h3></a></li>
+                <li><a href = "./loginSecondCheck"><h3>Login</h3></a></li>
+                <li><a href = "./logout"><h3>Logout</h3></a></li>
+    
+            </ul>
+        </div>
+        <div id = "form_div">
+            
+
+
+            <form action = "./login_check2" method = "POST">
+
+                <span style = "color:darkred">It seems that your credentials are invalid... Make sure to create an account and enter the right password</span>
+
+                <br>
+
+                <label for = "user">Please enter your username*:</label>
+                <input type = "text" id = "user" name = "user">
+                <br>
+                <br>
+
+                <label for = "password">Please enter your password*:</label>
+                <input type = "text" id = "password" name = "password">
+                <br>
+                <br>
+                <br>
+                <input type = "submit" value = "login now" onclick = "return validateLogin()">
+
+
+            </form>
+
+            <br>
+            <span>Not a member ? <a href = "./create_account.html" style = "color: darkred;">Create an account</a></span>
+
+        </div>
+
+    </div>
+    
+    <footer>
+        <span id = "disclaimer">
+            Privacy disclaimer: We take your privacy seriously. 
+             Any personal information you provide to us, such as your name, email address, or contact details, 
+             will be treated with the utmost confidentiality and will only be used for the purposes outlined in our Privacy Policy.
+        </span>
+        
+    </footer>
+
+    <script src = "./JS/script.js"></script>
+
+</body>
+
+</html>
